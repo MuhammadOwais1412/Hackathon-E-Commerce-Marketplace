@@ -1,0 +1,7 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+1,Verify the performance score of the page,"1. Open the website. 2. Run Lighthouse tool. 3. Check the performance score.","The performance score should be above 90.","Performance score is 88.","Fail","Chrome extensions affected the performance."
+2,Check the Largest Contentful Paint (LCP),"1. Open the website. 2. Run Lighthouse tool. 3. Check LCP value.","LCP should be under 2.5s.","LCP is 0.4s.","Pass","Good LCP value."
+3,Verify Accessibility score,"1. Open the website. 2. Run Lighthouse tool. 3. Check the accessibility score.","The accessibility score should be above 90.","Accessibility score is 93.","Pass",""
+4,Check for JavaScript execution time,"1. Open the website. 2. Run Lighthouse tool. 3. Check JavaScript execution time.","JavaScript execution time should be optimized.","JavaScript execution time is 7.2s.","Fail","Needs optimization."
+5,Minimize main-thread work,"1. Open the website. 2. Run Lighthouse tool. 3. Check main-thread work time.","Main-thread work should be minimized.","Main-thread work is 7.9s.","Fail","Needs optimization."
+6,Check SEO score,"1. Open the website. 2. Run Lighthouse tool. 3. Check SEO score.","SEO score should be 100.","SEO score is 100.","Pass",""
