@@ -1,0 +1,9 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+1,Verify the performance score of the page,"1. Open the website. 2. Run Lighthouse tool. 3. Check the performance score.","The performance score should be above 90.","Performance score is 62.","Fail","Performance decreased due to larger LCP."
+2,Check the Largest Contentful Paint (LCP),"1. Open the website. 2. Run Lighthouse tool. 3. Check LCP value.","LCP should be under 2.5s.","LCP is 4.6s.","Fail","LCP is above the target. Largest contentful element took 4,550ms."
+3,Verify Accessibility score,"1. Open the website. 2. Run Lighthouse tool. 3. Check the accessibility score.","The accessibility score should be above 90.","Accessibility score is 94.","Pass","Minor contrast issues affecting legibility."
+4,Check for JavaScript execution time,"1. Open the website. 2. Run Lighthouse tool. 3. Check JavaScript execution time.","JavaScript execution time should be optimized.","JavaScript execution time is 4.9s.","Fail","Needs optimization."
+5,Minimize main-thread work,"1. Open the website. 2. Run Lighthouse tool. 3. Check main-thread work time.","Main-thread work should be minimized.","Main-thread work is 6.1s.","Fail","Main thread work is higher than acceptable."
+6,Check SEO score,"1. Open the website. 2. Run Lighthouse tool. 3. Check SEO score.","SEO score should be 100.","SEO score is 100.","Pass","SEO optimization is in place."
+7,Avoid excessive DOM size,"1. Open the website. 2. Run Lighthouse tool. 3. Check for excessive DOM size.","DOM size should be under 150 elements.","DOM contains 164 elements.","Fail","Optimize DOM to reduce element count."
+
